@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ASonneP/Aphakorn-cv/static/css/main.4ae19200.css",
+    "main.js": "/ASonneP/Aphakorn-cv/static/js/main.d7c3828d.js",
+    "index.html": "/ASonneP/Aphakorn-cv/index.html",
+    "main.4ae19200.css.map": "/ASonneP/Aphakorn-cv/static/css/main.4ae19200.css.map",
+    "main.d7c3828d.js.map": "/ASonneP/Aphakorn-cv/static/js/main.d7c3828d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ae19200.css",
+    "static/js/main.d7c3828d.js"
+  ]
+}
