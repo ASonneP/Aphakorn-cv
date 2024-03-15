@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon, Text, VStack, Link } from "@chakra-ui/react";
+import { Icon, Text, VStack, Link, Avatar, Box } from "@chakra-ui/react";
 import { cvData } from "../data/cvData";
 import { FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
 
@@ -8,6 +8,13 @@ const PersonalInfo = () => {
 
   return (
     <VStack spacing={4} align="start">
+      <Box display="flex" justifyContent="center">
+        <Avatar
+          size="xl"
+          name={personalInfo.name}
+          src="https://asonnep.github.io/cv/images/Me.png"
+        />
+      </Box>
       <Text fontSize="2xl" fontWeight="bold">
         {personalInfo.name}
       </Text>
@@ -21,7 +28,6 @@ const PersonalInfo = () => {
           {personalInfo.phoneNumber}
         </Text>
       </a>
-
       <Link href={personalInfo.github} isExternal color="teal.500">
         <Icon as={FaGithub} mr={2} />
         ASonneP

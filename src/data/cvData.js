@@ -16,6 +16,21 @@ export const cvData = {
   ],
   workExperience: [
     {
+      company: "Graduation Project",
+      title: "Mobile Robot",
+      startDate: "2021",
+      endDate: "2022",
+      responsibilities: [
+        "Control the mobile robot to approach the installed QR code.",
+        "Control the mobile robot through the user interface (UI) of CiRA CORE.",
+        "Display the mapping of the LiDAR sensor.",
+        "Control the mobile robot together with other CiRA CORE applications.",
+        "Display measured parameters of IMU sensor in the mobile robot.",
+        "Display electrical parameters and state of charge (SOC) of the battery pack in the mobile robot.",
+        "Control the mobile robot to move along the line (Line Tracking).",
+      ],
+    },
+    {
       company: "Tage Engineering Co., Ltd.",
       title: "Internship (Engineering assistant)",
       startDate: "2021",

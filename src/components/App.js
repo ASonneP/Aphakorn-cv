@@ -4,7 +4,7 @@ import Education from "./Education";
 import WorkExperience from "./WorkExperience";
 import Skills from "./Skills";
 import { Box, useColorModeValue } from "@chakra-ui/react";
-import Projects from "./Projects";
+// import Projects from "./Projects";
 import ColorModeSwitcher from "./ColorModeSwitcher";
 
 const App = () => {
