@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Aphakorn-cv/static/css/main.4ae19200.css",
-    "main.js": "/Aphakorn-cv/static/js/main.d7c3828d.js",
-    "index.html": "/Aphakorn-cv/index.html",
-    "main.4ae19200.css.map": "/Aphakorn-cv/static/css/main.4ae19200.css.map",
-    "main.d7c3828d.js.map": "/Aphakorn-cv/static/js/main.d7c3828d.js.map"
+    "main.css": "/aphakorn-cv/static/css/main.4ae19200.css",
+    "main.js": "/aphakorn-cv/static/js/main.d7c3828d.js",
+    "index.html": "/aphakorn-cv/index.html",
+    "main.4ae19200.css.map": "/aphakorn-cv/static/css/main.4ae19200.css.map",
+    "main.d7c3828d.js.map": "/aphakorn-cv/static/js/main.d7c3828d.js.map"
   },
   "entrypoints": [
     "static/css/main.4ae19200.css",
