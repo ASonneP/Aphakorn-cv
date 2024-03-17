@@ -1,10 +1,13 @@
 export const cvData = {
   personalInfo: {
-    name: "Aphakorn ",
+    name: "Aphakorn Asavaphubodee",
     email: "aphakorn.a@gmail.com",
     phoneNumber: "062-857-8256",
     // linkedin: "linkedin.com/in/johndoe",
+    githubUsername: "ASonneP",
     github: "https://github.com/ASonneP",
+    desiredJob: "Backend Developer / Fullstack Developer",
+    img: "https://asonnep.github.io/cv/images/Me.png",  
   },
   education: [
     {
@@ -15,6 +18,24 @@ export const cvData = {
     },
   ],
   workExperience: [
+    {
+      company: "KineMaster",
+      title: "Regional Manager of Thailand",
+      startDate: "2021",
+      endDate: "2022",
+      responsibilities: [
+        "Management of Google Play reviews and Apple App Store reviews for Thai",
+        "Management of KineMaster Thailand Facebook Page and KineMaster Thailand Official Facebook Group",
+        "Handling Thai Zendesk tickets",
+        "Translation",
+        "Content Planning",
+        "Pulling out the indices from Google Data Studio",
+        "Contacting Influencers and Video partners",
+        "Creating push notification copies",
+        "Facebook Live Stream organizers",
+        "Other tasks related to marketing and operation for Thai market",
+      ],
+    },
     {
       company: "Graduation Project",
       title: "Mobile Robot",
@@ -42,6 +63,16 @@ export const cvData = {
         "Relay Functional Testing",
       ],
     },
+    {
+      company: "Freelancer",
+      title: "Freelancer",
+      startDate: "2020",
+      endDate: "2021",
+      responsibilities: [
+        "Voice Over",
+        "Video editing",
+      ],
+    },
   ],
   skills: [
     "HTML",
@@ -49,6 +80,7 @@ export const cvData = {
     "JavaScript",
     "React",
     "SQL",
+    "Redis",
     "PHP",
     "CI",
     "Nest",

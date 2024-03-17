@@ -64,8 +64,9 @@ const App = () => {
         <Box ref={contentRef} width="full" maxWidth="800px">
           <PersonalInfo />
           <Education />
-          <WorkExperience />
           <Skills />
+          <WorkExperience />
+         
         </Box>
       </Flex>
     </Box>
