@@ -6,8 +6,12 @@ export const cvData = {
     // linkedin: "linkedin.com/in/johndoe",
     githubUsername: "ASonneP",
     github: "https://github.com/ASonneP",
+    leetcodeUsername: "aphakorn_a",
+    leetcode: "https://leetcode.com/aphakorn_a/",
+    hackerrankUsername: "aphakorn_a",
+    hackerrank: "https://www.hackerrank.com/profile/aphakorn_a",
     desiredJob: "Backend Developer / Fullstack Developer",
-    img: "https://asonnep.github.io/cv/images/Me.png",  
+    img: "https://asonnep.github.io/cv/images/Me.png",
   },
   education: [
     {
@@ -68,10 +72,7 @@ export const cvData = {
       title: "Freelancer",
       startDate: "2020",
       endDate: "2021",
-      responsibilities: [
-        "Voice Over",
-        "Video editing",
-      ],
+      responsibilities: ["Voice Over", "Video editing"],
     },
   ],
   skills: [

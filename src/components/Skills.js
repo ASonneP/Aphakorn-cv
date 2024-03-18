@@ -4,7 +4,14 @@ import { cvData } from "../data/cvData";
 
 const Skills = () => {
   return (
-    <Box mt="4">
+    <Box
+      mt="4"
+      p={5}
+      boxShadow="md"
+      borderWidth="1px"
+      borderRadius="lg"
+      overflow="hidden"
+    >
       <Text fontSize="xl" fontWeight="bold" mb="2">
         Skills
       </Text>
