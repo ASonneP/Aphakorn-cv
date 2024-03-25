@@ -28,7 +28,12 @@ export const cvData = {
       startDate: "2023",
       endDate: "2024",
       type: "related",
-      responsibilities: ["Create internal tools for internal usage"],
+      responsibilities: [
+        {
+          title: "Create internal tools for internal usage",
+          detail: ["test1", "test2"],
+        },
+      ],
     },
     {
       company: "KineMaster",
