@@ -23,10 +23,19 @@ export const cvData = {
   ],
   workExperience: [
     {
+      company: "WinWin Interactive co.,Ltd.",
+      title: "Junior Full-Stack Web Developer",
+      startDate: "2023",
+      endDate: "2024",
+      type: "related",
+      responsibilities: ["Create internal tools for internal usage"],
+    },
+    {
       company: "KineMaster",
       title: "Regional Manager of Thailand",
       startDate: "2021",
       endDate: "2022",
+      type: "not related",
       responsibilities: [
         "Management of Google Play reviews and Apple App Store reviews for Thai",
         "Management of KineMaster Thailand Facebook Page and KineMaster Thailand Official Facebook Group",
@@ -45,6 +54,7 @@ export const cvData = {
       title: "Mobile Robot",
       startDate: "2021",
       endDate: "2022",
+      type: "not related",
       responsibilities: [
         "Control the mobile robot to approach the installed QR code.",
         "Control the mobile robot through the user interface (UI) of CiRA CORE.",
@@ -60,6 +70,7 @@ export const cvData = {
       title: "Internship (Engineering assistant)",
       startDate: "2021",
       endDate: "2021",
+      type: "not related",
       responsibilities: [
         "Interpreting an engineering diagram to check the wiring of the Main Distribution Board",
         "Busbar Testing",
@@ -72,6 +83,7 @@ export const cvData = {
       title: "Freelancer",
       startDate: "2020",
       endDate: "2021",
+      type: "not related",
       responsibilities: ["Voice Over", "Video editing"],
     },
   ],
