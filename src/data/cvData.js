@@ -29,10 +29,12 @@ export const cvData = {
       endDate: "2024",
       type: "related",
       responsibilities: [
-        {
-          title: "Create internal tools for internal usage",
-          detail: ["test1", "test2"],
-        },
+        "Create internal tools for company-wide usage.",
+        "Develop an event page for user interaction, including frontend and backend functionalities such as a reward claiming page, user ranking, etc.",
+        "Implement APIs to support system functionality.",
+        "Design and optimize databases for efficient data management.",
+        "Resolve bugs and issues identified in the system.",
+        "Undertake other tasks related to Management Information Systems (MIS).",
       ],
     },
     {
@@ -105,11 +107,35 @@ export const cvData = {
     "GO",
   ],
   projects: [
+    // {
+    //   name: "Project One",
+    //   description: "This is a description of project one.",
+    //   technologies: ["React", "JavaScript"],
+    //   link: "http://example.com/project-one",
+    // },
     {
-      name: "Project One",
-      description: "This is a description of project one.",
-      technologies: ["React", "JavaScript"],
-      link: "http://example.com/project-one",
+      name: "Cash withdrawal system",
+      description:
+        "A system for handling cash withdrawals with various features.",
+      technologies: ["Tailwind CSS", "JavaScript", "PHP", "MySQL"],
+      details: [
+        "Database Designs: Three tables designed specifically for the withdrawal system, excluding user tables.",
+        "API for Checking Debit Status",
+        "API for Requesting a Withdrawal",
+      ],
+    },
+
+    {
+      name: "Event Page Generator Tool",
+      description: "A tool to create event pages by filling out a form",
+      technologies: [
+        "Boostrap 5",
+        "CKEditor 4.21.0",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+      ],
+      detail: [],
     },
   ],
 };

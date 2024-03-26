@@ -50,27 +50,11 @@ const WorkExperience = () => {
                   <Text>
                     {work.title}, {work.startDate} - {work.endDate}
                   </Text>
-                  {work.responsibilities.map((responsibility, respIndex) => (
-                    <Box pl={4} key={respIndex}>
-                      <UnorderedList>
-                        <ListItem style={{ listStyleType: "square" }}>
-                          {responsibility.title}
-                        </ListItem>
-                        {responsibility.detail &&
-                          responsibility.detail.length > 0 && (
-                            <UnorderedList>
-                              {responsibility.detail.map(
-                                (detail, detailIndex) => (
-                                  <ListItem key={detailIndex}>
-                                    {detail}
-                                  </ListItem>
-                                )
-                              )}
-                            </UnorderedList>
-                          )}
-                      </UnorderedList>
-                    </Box>
-                  ))}
+                  <UnorderedList>
+                    {work.responsibilities.map((responsibility, i) => (
+                      <ListItem key={i}>{responsibility}</ListItem>
+                    ))}
+                  </UnorderedList>
                 </Box>
               );
             } else if (
