@@ -11,10 +11,11 @@ import { FaEyeSlash, FaEye } from "react-icons/fa";
 import { cvData } from "../data/cvData";
 
 const WorkExperience = () => {
-  const [showWorkExperience, setShowWorkExperience] = useState(true);
+  const [showNotRelatedExperience, setShowNotRelatedExperience] =
+    useState(false);
 
-  const toggleWorkExperience = () => {
-    setShowWorkExperience(!showWorkExperience);
+  const toggleNotRelatedExperience = () => {
+    setShowNotRelatedExperience(!showNotRelatedExperience);
   };
 
   return (
@@ -31,27 +32,52 @@ const WorkExperience = () => {
           <Text fontSize="xl" fontWeight="bold" mr={2}>
             Work Experience
           </Text>
-          <Button onClick={toggleWorkExperience} variant="link" size="sm">
-            {showWorkExperience ? <FaEyeSlash /> : <FaEye />}
+          <Button
+            onClick={toggleNotRelatedExperience}
+            variant="link"
+            size="sm"
+            leftIcon={showNotRelatedExperience ? <FaEyeSlash /> : <FaEye />}
+          >
+            {showNotRelatedExperience ? "Hide Not Related" : "Show Not Related"}
           </Button>
         </Box>
-        {showWorkExperience && (
-          <>
-            {cvData.workExperience.map((work, index) => (
-              <Box key={index}>
-                <Text fontWeight="bold">{work.company}</Text>
-                <Text>
-                  {work.title}, {work.startDate} - {work.endDate}
-                </Text>
-                <UnorderedList>
-                  {work.responsibilities.map((responsibility, i) => (
-                    <ListItem key={i}>{responsibility}</ListItem>
-                  ))}
-                </UnorderedList>
-              </Box>
-            ))}
-          </>
-        )}
+        <>
+          {cvData.workExperience.map((work, index) => {
+            if (work.type === "related") {
+              return (
+                <Box key={index}>
+                  <Text fontWeight="bold">{work.company}</Text>
+                  <Text>
+                    {work.title}, {work.startDate} - {work.endDate}
+                  </Text>
+                  <UnorderedList>
+                    {work.responsibilities.map((responsibility, i) => (
+                      <ListItem key={i}>{responsibility}</ListItem>
+                    ))}
+                  </UnorderedList>
+                </Box>
+              );
+            } else if (
+              showNotRelatedExperience &&
+              work.type === "not related"
+            ) {
+              return (
+                <Box key={index}>
+                  <Text fontWeight="bold">{work.company}</Text>
+                  <Text>
+                    {work.title}, {work.startDate} - {work.endDate}
+                  </Text>
+                  <UnorderedList>
+                    {work.responsibilities.map((responsibility, i) => (
+                      <ListItem key={i}>{responsibility}</ListItem>
+                    ))}
+                  </UnorderedList>
+                </Box>
+              );
+            }
+            return null;
+          })}
+        </>
       </VStack>
     </Box>
   );

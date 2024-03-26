@@ -23,10 +23,26 @@ export const cvData = {
   ],
   workExperience: [
     {
+      company: "WinWin Interactive co.,Ltd.",
+      title: "Junior Full-Stack Web Developer",
+      startDate: "2023",
+      endDate: "2024",
+      type: "related",
+      responsibilities: [
+        "Create internal tools for company-wide usage.",
+        "Develop an event page for user interaction, including frontend and backend functionalities such as a reward claiming page, user ranking, etc.",
+        "Implement APIs to support system functionality.",
+        "Design and optimize databases for efficient data management.",
+        "Resolve bugs and issues identified in the system.",
+        "Undertake other tasks related to Management Information Systems (MIS).",
+      ],
+    },
+    {
       company: "KineMaster",
       title: "Regional Manager of Thailand",
       startDate: "2021",
       endDate: "2022",
+      type: "not related",
       responsibilities: [
         "Management of Google Play reviews and Apple App Store reviews for Thai",
         "Management of KineMaster Thailand Facebook Page and KineMaster Thailand Official Facebook Group",
@@ -45,6 +61,7 @@ export const cvData = {
       title: "Mobile Robot",
       startDate: "2021",
       endDate: "2022",
+      type: "not related",
       responsibilities: [
         "Control the mobile robot to approach the installed QR code.",
         "Control the mobile robot through the user interface (UI) of CiRA CORE.",
@@ -60,6 +77,7 @@ export const cvData = {
       title: "Internship (Engineering assistant)",
       startDate: "2021",
       endDate: "2021",
+      type: "not related",
       responsibilities: [
         "Interpreting an engineering diagram to check the wiring of the Main Distribution Board",
         "Busbar Testing",
@@ -72,6 +90,7 @@ export const cvData = {
       title: "Freelancer",
       startDate: "2020",
       endDate: "2021",
+      type: "not related",
       responsibilities: ["Voice Over", "Video editing"],
     },
   ],
@@ -88,11 +107,35 @@ export const cvData = {
     "GO",
   ],
   projects: [
+    // {
+    //   name: "Project One",
+    //   description: "This is a description of project one.",
+    //   technologies: ["React", "JavaScript"],
+    //   link: "http://example.com/project-one",
+    // },
     {
-      name: "Project One",
-      description: "This is a description of project one.",
-      technologies: ["React", "JavaScript"],
-      link: "http://example.com/project-one",
+      name: "Cash withdrawal system",
+      description:
+        "A system for handling cash withdrawals with various features.",
+      technologies: ["Tailwind CSS", "JavaScript", "PHP", "MySQL"],
+      details: [
+        "Database Designs: Three tables designed specifically for the withdrawal system, excluding user tables.",
+        "API for Checking Debit Status",
+        "API for Requesting a Withdrawal",
+      ],
+    },
+
+    {
+      name: "Event Page Generator Tool",
+      description: "A tool to create event pages by filling out a form",
+      technologies: [
+        "Boostrap 5",
+        "CKEditor 4.21.0",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+      ],
+      detail: [],
     },
   ],
 };
