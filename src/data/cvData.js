@@ -30,9 +30,10 @@ export const cvData = {
       type: "related",
       responsibilities: [
         "Create internal tools for company-wide usage.",
-        "Develop an event page for user interaction, including frontend and backend functionalities such as a reward claiming page, user ranking, etc.",
+        "Develop various features and components of the web application.",
         "Implement APIs to support system functionality.",
         "Design and optimize databases for efficient data management.",
+        "Develop an event page for user interaction, including frontend and backend functionalities such as a reward claiming page, user ranking, etc.",
         "Resolve bugs and issues identified in the system.",
         "Undertake other tasks related to Management Information Systems (MIS).",
       ],

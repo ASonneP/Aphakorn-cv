@@ -13,7 +13,7 @@ import PersonalInfo from "./PersonalInfo";
 import Education from "./Education";
 import WorkExperience from "./WorkExperience";
 import Skills from "./Skills";
-import Projects from "./Projects";
+// import Projects from "./Projects";
 import ColorModeSwitcher from "./ColorModeSwitcher";
 import html2pdf from "html2pdf.js";
 
@@ -88,7 +88,7 @@ const App = () => {
           <Education />
           <Skills />
           <WorkExperience />
-          <Projects />
+          {/* <Projects /> */}
         </Box>
       </Flex>
     </Box>
